@@ -1,0 +1,61 @@
+/* Phones */
+.navbar-container {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    background: #723C9B;
+}
+
+.navbar-link {
+    font-size: 1em;
+    font-family: 'Reem Kufi';
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.navbar-title {
+    font-size: 1.4em;
+    font-family: 'Reem Kufi';
+    color: #AC53D4;
+}
+
+.navbar-title:hover {
+    font-size: 1.5em;
+    color: white;
+    transition: font-size 1.5s linear;
+}
+
+.only-phone {
+    display: inline;
+}
+
+.only-desktop {
+    display: none;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .navbar-container {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 5px;
+        background: #723C9B;
+    }
+    
+    .navbar-link:hover, .navbar-link:active {
+        color: #AC53D4;
+        border-bottom: 4px solid #AC53D4;
+        transition: border-bottom-width 0.2s linear;
+    }
+
+    .only-phone {
+        display: none;
+    }
+
+    .only-desktop {
+        display: inline;
+    }
+}
