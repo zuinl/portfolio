@@ -3,7 +3,7 @@
     position: relative;
     width: 100%;
     padding: 5px;
-    background: #723C9B;
+    background: #0B5C70;
 }
 
 .navbar-link {
@@ -18,13 +18,28 @@
 .navbar-title {
     font-size: 1.4em;
     font-family: 'Reem Kufi';
-    color: #AC53D4;
+    color: #18C5F0;
 }
 
 .navbar-title:hover {
     font-size: 1.5em;
     color: white;
     transition: font-size 1.5s linear;
+}
+
+.navbar-button {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 0.5em;
+    font-family: 'Reem Kufi';
+    background: #0B5C70;
+    border: 1px solid #18C5F0
+}
+
+.navbar-button:hover {
+    border: 1px solid white;
+    transition: border 0.2s linear;
 }
 
 .only-phone {
@@ -42,13 +57,28 @@
         bottom: 0;
         width: 100%;
         padding: 5px;
-        background: #723C9B;
+        background: #0B5C70;
     }
     
     .navbar-link:hover, .navbar-link:active {
-        color: #AC53D4;
-        border-bottom: 4px solid #AC53D4;
+        color: #18C5F0;
+        border-bottom: 4px solid #18C5F0;
         transition: border-bottom-width 0.2s linear;
+    }
+
+    .navbar-button {
+        margin: 5px;
+        padding: 5px;
+        color: white;
+        font-size: 0.5em;
+        font-family: 'Reem Kufi';
+        background: #0B5C70;
+        border: 1px solid #18C5F0
+    }
+
+    .navbar-button:hover {
+        border: 1px solid white;
+        transition: border 0.2s linear;
     }
 
     .only-phone {

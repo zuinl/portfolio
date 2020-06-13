@@ -1,7 +1,7 @@
 import { TRANSLATE } from '../Actions/ActionTypes'
 
 const initialState = {
-    language: "EN"
+    language: "PT"
 }
 
 export default (state = initialState, action) => {

@@ -15,6 +15,36 @@
   text-align: right;
 }
 
+h1, h2, h3 {
+  font-family: 'Reem Kufi';
+  color: #18C5F0;
+}
+
+h2 {
+  margin-left: 1em;
+}
+
+p {
+  color: white;
+  font-family: 'Reem Kufi';
+  margin-left: 2em;
+}
+
+/* Smartphone */
+.content-container {
+  width: 100%;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .content-container {
+      width: 100%;
+      padding: 3em;
+      padding-top: 2em;
+      margin-bottom: 6em;
+  }
+}
+
 /* Grid classes */
 
 .row {
