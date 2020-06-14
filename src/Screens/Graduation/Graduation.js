@@ -11,6 +11,7 @@ const Graduation = props => {
     const translations = getTranslation(props.language)
     return (
         <div>
+            <Navbar />
             <div className="content-container">
                 <h1>console.log(</h1>
                     <h2>{translations.graduation.title}</h2>
@@ -38,7 +39,6 @@ const Graduation = props => {
                     })}
                 <h1>);</h1>
             </div>
-            <Navbar />
         </div>
     )
 }

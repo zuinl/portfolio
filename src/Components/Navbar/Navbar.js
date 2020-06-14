@@ -45,15 +45,15 @@ const Header = props => {
                         {" <"}
                     </span>
                 </div>
-                <div className="col-12">
+                <div className="col-12 center">
                     <Link to="/presentation" className="navbar-link">{translations.presentation}</Link>
                     <Link to="/graduation" className="navbar-link">{translations.graduation}</Link>
                 </div>
-                <div className="col-12">
+                <div className="col-12 center">
                     <Link to="/portfolio" className="navbar-link">{translations.portfolio}</Link>
                     <Link to="/contact" className="navbar-link">{translations.contact}</Link>
                 </div>
-                <div className="col-12">
+                <div className="col-12 center">
                     <button onClick={() => props.translate("EN")} className="navbar-button">EN</button>
                     <button onClick={() => props.translate("PT")} className="navbar-button">PT</button>
                 </div>

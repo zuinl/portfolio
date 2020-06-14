@@ -11,6 +11,7 @@ const Contact = props => {
     const translations = getTranslate(props.language)
     return (
         <div>
+            <Navbar />
             <div className="content-container">
                 <h1>console.log(</h1>
                     {translations.contacts.map(contact => {
@@ -26,7 +27,6 @@ const Contact = props => {
                     })}
                 <h1>);</h1>
             </div>
-            <Navbar />
         </div>
     )
 }

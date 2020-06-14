@@ -14,6 +14,7 @@ import Respect from '../../assets/respect.png'
 const Presentation = props => {
     return (
         <div>
+            <Navbar />
             <div className="content-container">
                 <h1>console.log(</h1>
                     <div className="row only-desktop">
@@ -80,7 +81,6 @@ const Presentation = props => {
                     }
                 <h1>);</h1>
             </div>
-            <Navbar />
         </div>
     )
 }

@@ -13,6 +13,7 @@ const Portfolio = props => {
     const translations = getTranslations(props.language)
     return (
         <div>
+            <Navbar />
             <div className="content-container">
                 <h1>console.log(</h1>
                     <p><img src={s2} className="icon" alt="Favorite" /> = my favorite</p>
@@ -76,7 +77,6 @@ const Portfolio = props => {
                     })}
                 <h1>);</h1>
             </div>
-            <Navbar />
         </div>
     )
 }
