@@ -15,7 +15,12 @@
   text-align: right;
 }
 
-h1, h2, h3 {
+h1 {
+  font-family: 'Reem Kufi';
+  color: #0B5C70;
+}
+
+h2, h3 {
   font-family: 'Reem Kufi';
   color: #18C5F0;
 }
@@ -24,10 +29,34 @@ h2 {
   margin-left: 1em;
 }
 
+h3 {
+  margin-left: 2em;
+}
+
 p {
   color: white;
   font-family: 'Reem Kufi';
-  margin-left: 2em;
+  margin-left: 2.3em;
+}
+
+a {
+  color: white;
+}
+
+a:hover a:visited {
+  color: white;
+}
+
+.tag {
+  background: #0B5C70;
+  padding: 4px;
+  margin: 1em;
+  font-family: 'Reem Kufi';
+  color: white;
+}
+
+.icon {
+  width: 1.5em;
 }
 
 /* Smartphone */
@@ -41,7 +70,6 @@ p {
       width: 100%;
       padding: 3em;
       padding-top: 2em;
-      margin-bottom: 6em;
   }
 }
 
