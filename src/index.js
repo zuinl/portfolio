@@ -17,11 +17,11 @@ ReactDOM.render(
   <Provider store={Store}>
     <React.StrictMode>
       <BrowserRouter basename="/">
-        <Route path="/" component={App} />
-        <Route path="/presentation" component={Presentation} />
-        <Route path="/graduation" component={Graduation} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/" component={App} />
+        <Route exact path="/presentation" component={Presentation} />
+        <Route exact path="/graduation" component={Graduation} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
       </BrowserRouter>
     </React.StrictMode>
   </Provider>,
