@@ -5,6 +5,8 @@ import './style.css'
 import { connect } from 'react-redux'
 import { translate } from '../../Redux/Actions/Translate'
 
+import { Link } from 'react-router-dom'
+
 import getTranslation from './Translations'
 
 const Header = props => {
@@ -13,16 +15,16 @@ const Header = props => {
         <div className="navbar-container">
             <div className="row only-desktop">
                 <div className="col-2">
-                    <a href="/presentation" className="navbar-link">{translations.presentation}</a>
+                    <Link to="/presentation" className="navbar-link">{translations.presentation}</Link>
                 </div>
                 <div className="col-2">
-                    <a href="/graduation" className="navbar-link">{translations.graduation}</a>
+                    <Link to="/graduation" className="navbar-link">{translations.graduation}</Link>
                 </div>
                 <div className="col-2">
-                    <a href="/portfolio" className="navbar-link">{translations.portfolio}</a>
+                    <Link to="/portfolio" className="navbar-link">{translations.portfolio}</Link>
                 </div>
                 <div className="col-2">
-                    <a href="/contact" className="navbar-link">{translations.contact}</a>
+                    <Link to="/contact" className="navbar-link">{translations.contact}</Link>
                 </div>
                 <div className="col-4 right">
                     <button onClick={() => props.translate("EN")} className="navbar-button">EN</button>
@@ -44,12 +46,12 @@ const Header = props => {
                     </span>
                 </div>
                 <div className="col-12">
-                    <a href="/presentation" className="navbar-link">{translations.presentation}</a>
-                    <a href="/graduation" className="navbar-link">{translations.graduation}</a>
+                    <Link to="/presentation" className="navbar-link">{translations.presentation}</Link>
+                    <Link to="/graduation" className="navbar-link">{translations.graduation}</Link>
                 </div>
                 <div className="col-12">
-                    <a href="/portfolio" className="navbar-link">{translations.portfolio}</a>
-                    <a href="/contact" className="navbar-link">{translations.contact}</a>
+                    <Link to="/portfolio" className="navbar-link">{translations.portfolio}</Link>
+                    <Link to="/contact" className="navbar-link">{translations.contact}</Link>
                 </div>
                 <div className="col-12">
                     <button onClick={() => props.translate("EN")} className="navbar-button">EN</button>

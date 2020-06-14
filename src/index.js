@@ -16,7 +16,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 ReactDOM.render(
   <Provider store={Store}>
     <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Route path="/" component={App} />
         <Route path="/presentation" component={Presentation} />
         <Route path="/graduation" component={Graduation} />

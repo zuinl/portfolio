@@ -1,14 +1,20 @@
 import React from 'react'
-import './App.css'
+
+import { connect } from 'react-redux'
+
+import { Redirect } from 'react-router-dom'
 
 import Navbar from './Components/Navbar/Navbar'
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-    </div>
-  )
+import './App.css'
+import './index.css'
+
+const App = props => {
+    return (
+        <div className="App">
+            <Navbar />
+        </div>
+    )
 }
 
-export default App
+export default connect(null, null)(App)
