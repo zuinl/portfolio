@@ -17,6 +17,28 @@ const Portfolio = props => {
             <div className="content-container">
                 <h1>console.log(</h1>
                     <p><img src={s2} className="icon" alt="Favorite" /> = my favorite</p>
+                    <h2>HTML + CSS</h2>
+                    {translations.html_css.map(project => {
+                        return (
+                            <div key={project.name}>
+                                <h3>{project.name} {project.favorite && <img src={s2} className="icon" alt="Favorite" />}</h3>
+                                <p>{project.description}</p>
+                                <p>
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                        {project.linkTitle}
+                                    </a>
+                                </p>
+                                {project.online &&
+                                <p>
+                                    <a href={project.onlineLink} target="_blank" rel="noopener noreferrer">
+                                        {project.onlineTitle}
+                                    </a>
+                                </p>
+                                }
+                            </div>
+                        )
+                    })}
+
                     <h2>ReactJS + Node.js</h2>
                     {translations.reactjs.map(project => {
                         return (

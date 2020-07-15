@@ -1,4 +1,16 @@
 const PT = {
+    html_css: [
+        {
+            name: "Junho/2020 - Website Campanelli Consultoria Empresarial",
+            description: "Site institucional da Campanelli Consultoria Empresarial Ltda.",
+            linkTitle: "Código-fonte privado por direitos de propriedade intelectual do cliente conforme Lei 9.609 de 1998",
+            link: "https://github.com/zuinl/",
+            online: true,
+            onlineTitle: "Disponível para visita online",
+            onlineLink: "http://campanelliconsultoriaempresarial.com/",
+            favorite: true
+        }
+    ],
     reactjs: [
         {
             name: "Junho/2020 - Portfólio pessoal",
@@ -86,6 +98,18 @@ const PT = {
 }
 
 const EN = {
+    html_css: [
+        {
+            name: "June/2020 - Website Campanelli Consultoria Empresarial",
+            description: "Site institucional da Campanelli Consultoria Empresarial Ltda.",
+            linkTitle: "The font code is private due to Brazilian Law of Intelctual Property",
+            link: "https://github.com/zuinl/",
+            online: true,
+            onlineTitle: "Available online",
+            onlineLink: "http://campanelliconsultoriaempresarial.com/",
+            favorite: true
+        }
+    ],
     reactjs: [
         {
             name: "June/2020 - Personal portfolio",
