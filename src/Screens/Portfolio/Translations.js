@@ -101,8 +101,8 @@ const EN = {
     html_css: [
         {
             name: "June/2020 - Website Campanelli Consultoria Empresarial",
-            description: "Site institucional da Campanelli Consultoria Empresarial Ltda.",
-            linkTitle: "The font code is private due to Brazilian Law of Intelctual Property",
+            description: "Institutional website for Campanelli Consultoria Empresarial Ltda.",
+            linkTitle: "The font code is private due to Brazilian Law of Intelectual Property",
             link: "https://github.com/zuinl/",
             online: true,
             onlineTitle: "Available online",
